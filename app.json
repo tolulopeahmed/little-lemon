@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MyProject",
-    "slug": "MyProject",
+    "name": "little-lemon",
+    "slug": "little-lemon",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,6 +18,11 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
